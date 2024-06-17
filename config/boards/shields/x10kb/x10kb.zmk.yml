@@ -1,0 +1,14 @@
+file_format: "1"
+id: x10kb
+name: x10kb
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - x10kb_left
+  - x10kb_right
