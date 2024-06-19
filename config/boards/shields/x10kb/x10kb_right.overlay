@@ -25,3 +25,11 @@
         , <&pro_micro 21 GPIO_ACTIVE_HIGH>
         ;
 };
+
+&right_encoder0 {
+    status = "okay";
+};
+
+&right_encoder1 {
+    status = "okay";
+};
